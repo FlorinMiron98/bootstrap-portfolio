@@ -56,8 +56,20 @@ h2 {
     background-color: #1f7798;
 }
 
+.btn:not(#portfolio .card-body .btn) {
+    background-color: #1f7798;
+}
+
+.btn:not(#portfolio .card-body .btn):hover {
+    background-color: #1d6d8a;
+}
+
 #contact {
     background-color: #fff;
+}
+
+#contact .form-label {
+    color: #1d6d8a;
 }
 
 @media screen and (min-width: 1200px) {
