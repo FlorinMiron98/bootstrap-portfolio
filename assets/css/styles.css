@@ -14,6 +14,11 @@ body {
     background-color: #a4c2d1;
 }
 
+.sharp-corner,
+.sharp-corner * {
+    border-radius: 0;
+}
+
 h1,
 h2 {
     font-family: 'DM Serif Display', serif;
@@ -38,6 +43,25 @@ h2 {
     background-color: #dbdcde;
 }
 
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
+#portfolio .card-text {
+    min-height: 120px;
+}
+
+#portfolio .card-body .btn:hover {
+    background-color: #1f7798;
+}
+
 #contact {
     background-color: #fff;
+}
+
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text {
+        min-height: auto;
+    }
 }
